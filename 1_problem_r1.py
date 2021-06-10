@@ -7,10 +7,10 @@ def result(sample,virus):
             s+=1
         v+=1
     return s==sa
-    virus=input()
-    for i in range(int(input())):
-        sample=input()
-        if result(sample,virus):
-            print("POSITIVE")
-        else:
-            print("NEGATIVE")
+virus=input()
+for i in range(int(input())):
+    sample=input()
+    if result(sample,virus):
+        print("POSITIVE")
+    else:
+        print("NEGATIVE")
